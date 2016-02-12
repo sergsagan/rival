@@ -1,0 +1,27 @@
+/*vendors*/
+@import "../../bower_components/normalize-css/normalize.css";
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+/*utils*/
+@import "utils/variables";
+@import "utils/mixins";
+@import "utils/helpers";
+
+/*base*/
+@import "base/typography";
+
+/*layout*/
+@import "layout/navigation";
+@import "layout/header";
+@import "layout/content";
+@import "layout/footer";
+@import "layout/forms";
+
+/*components*/
+@import "components/buttons";
+@import "components/carousel";
+@import "components/cover";
+
+/*pages*/
+@import "pages/home";
+@import "pages/contact";

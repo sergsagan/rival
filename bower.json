@@ -1,0 +1,17 @@
+{
+  "name": "rival",
+  "version": "0.0.1",
+  "homepage": "gulpfile.js",
+  "authors": [
+    "zorro76 <sergey.martynuk@gmail.com>"
+  ],
+  "description": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*"
+  }
+}
