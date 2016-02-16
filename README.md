@@ -1,4 +1,4 @@
-# gulp-project Rival
+# Rival
 
 # install npm&&bower
 

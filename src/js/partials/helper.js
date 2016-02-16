@@ -1,4 +1,5 @@
-//Так приятней :)
-window.log = function(param){
-    console.log(param);
-};
+$(document).ready(function(){
+    "use strict";
+
+});
+

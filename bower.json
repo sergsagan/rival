@@ -11,7 +11,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "normalize.css": "*",
-    "jquery": "2.*"
+    "font-awesome": "~4.5.0",
+    "jquery": "2.*",
+    "normalize.css": "*"
   }
 }

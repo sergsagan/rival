@@ -1,0 +1,161 @@
+header{
+  width: 100%;
+  max-width: 1150px;
+  height:100px;
+  margin:0 auto;
+
+  .top-panel{
+
+    .logo{
+      margin-top: 20px;
+    }
+
+    h3{
+      font-family: "TahomaRegular", sans-serif;
+      color: $color-stack;
+      font-size: $h3-size;
+      font-weight: 400;
+      line-height: 23px;
+      padding-left: 10px;
+      text-align: left;
+      text-transform: uppercase;
+      transform: scaleX(1.0075);
+    }
+
+    .search{
+      margin: 32px 0 0 60px;
+      input{
+        background-image: url("../../img/ico-search.png");
+        background-position: 5% 50%;
+        background-repeat: no-repeat;
+        background-color: $light-color;
+        border: 1px solid #aaa9a9;
+        box-sizing: border-box;
+        padding: 2px 2px 5px 35px;
+        outline: none;
+        width: 200px;
+        height: 30px;
+      }
+      #form-query:-moz-placeholder {
+        background: $light-color;
+        color: $search-color;
+        font-family: "TahomaRegular", sans-serif;
+        font-size: $other-size;
+        font-weight: 400;
+        line-height: 2.182;
+      }
+      #form-query::-webkit-input-placeholder {
+        background: $light-color;
+        color: $search-color;
+        font-family: "TahomaRegular", sans-serif;
+        font-size: $other-size;
+        font-weight: 400;
+        line-height: 2.182;
+      }
+      #form-query:-ms-input-placeholder {
+        background: $light-color;
+        color: $search-color;
+        font-family: "TahomaRegular", sans-serif;
+        font-size: $other-size;
+        font-weight: 400;
+        line-height: 2.182;
+      }
+
+    }
+
+    .phone{
+      margin-top: 17px;
+      a{
+        font-family: "TahomaBold", sans-serif;
+        color: $color-base;
+        font-size: 1.1em;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 1.25px;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+
+    .lang{
+      .arrow{
+        margin: 2px 0 0 6px;
+      }
+      p{
+        margin-top: 3px;
+      }
+    }
+
+    .email{
+      margin-top: 3px;
+      padding-left: 10px;
+      a{
+        font-family: "TahomaRegular", sans-serif;
+        color: $inner-color;
+        font-size: 0.9em;
+        font-weight: 400;
+        line-height: 1.714;
+        &:hover{
+          color:$color-stack;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .vertical_line{
+      margin-top: 25px;
+    }
+
+    .login{
+      margin-top: 21px;
+      img{
+        width: 38px;
+        height: 38px;
+      }
+    }
+
+    .arrow{
+      margin: 30px 0 0 5px;
+    }
+  }
+
+  nav{
+    ul{
+
+      li{
+        float: left;
+        list-style: none;
+        background-color: $light-color;
+        box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.15);
+        a{
+          font-family: "TahomaRegular", sans-serif;
+          color: $color-base;
+          font-size: $h3-size;
+          font-weight: 400;
+          line-height: 3.1;
+          transform: scaleX(1.0075);
+          width: 145px;
+          display: block;
+          text-align: center;
+          &:hover, &:active{
+            text-decoration: none;
+            border-bottom: 4px solid $color-stack;
+            font-weight: 700;
+            display: block;
+            color: $color-base;
+          }
+        }
+
+      }
+      &:first-child{
+        margin-left: -40px;
+      }
+
+    }
+
+  }
+
+
+
+}
