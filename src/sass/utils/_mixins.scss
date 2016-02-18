@@ -2,3 +2,30 @@
   padding-left: 0;
   padding-right: 0;
 }
+.pr{
+  padding-right: 0;
+}
+.pl{
+  padding-left: 0;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid gray;
+}
+
+input{
+  background-image: url("../../img/ico-search.png");
+  background-position: 5% 50%;
+  background-repeat: no-repeat;
+  background-color: $light-color;
+  border: 1px solid #aaa9a9;
+  box-sizing: border-box;
+  padding: 2px 2px 5px 35px;
+  outline: none;
+}
+h2{
+  margin:0;
+  padding: 0;
+}

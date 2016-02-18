@@ -1,0 +1,116 @@
+.sidebar{
+
+  .block-news{
+    background-image: url(../../img/blok_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 30px;
+    .overlay{
+      background: rgba(88, 21, 163, .75);
+      width: 100%;
+      height: 100%;
+      h2, .data-news, .heading-news, p{
+        font-family: "TahomaRegular", sans-serif;
+        color: $light-color;
+        font-weight: 500;
+        padding-left: 30px;
+      }
+
+      h2{
+        font-size: $h2-size;
+        padding-top: 20px;
+        transform: scaleX(1.0075);
+      }
+      p.data-news{
+        font-size: $h4-size;
+        line-height: 2.308;
+        padding-top: 10px;
+      }
+      p.heading-news{
+        font-size: $h3-size;
+      }
+      p{
+        font-size: $h4-size;
+        padding-right: 30px;
+      }
+      .btn-wrap{
+        padding: 20px 0 0 30px;
+      }
+    }
+  }
+
+  .block-action{
+    background-image: url(../../img/blok_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 30px;
+    .overlay{
+      background: rgba(0, 33, 76, .75);
+      width: 100%;
+      height: 100%;
+      h2, .heading-news, p{
+        font-family: "TahomaRegular", sans-serif;
+        color: $light-color;
+        font-weight: 500;
+        padding-left: 30px;
+      }
+      h2{
+        font-size: $h2-size;
+        padding-top: 20px;
+        transform: scaleX(1.0075);
+      }
+      p.heading-news{
+        padding-top: 20px;
+        font-size: $h3-size;
+      }
+      p{
+        font-size: $h4-size;
+        padding-right: 30px;
+      }
+      .btn-wrap{
+        padding: 40px 0 0 30px;
+      }
+    }
+  }
+
+  .block-work{
+    background-image: url(../../img/work_img.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 30px;
+    .overlay{
+      background: rgba(38, 105, 182, .85);
+      width: 100%;
+      height: 100%;
+      h2, .heading-news, p{
+        font-family: "TahomaRegular", sans-serif;
+        color: $light-color;
+        font-weight: 500;
+        padding-left: 30px;
+      }
+      h2{
+        font-size: $h2-size;
+        padding-top: 20px;
+        transform: scaleX(1.0075);
+      }
+      p.heading-news{
+        padding-top: 20px;
+        font-size: $h3-size;
+      }
+      p{
+        font-size: $h4-size;
+        padding-right: 30px;
+      }
+      .btn-wrap{
+        padding: 40px 0 0 30px;
+      }
+    }
+  }
+
+}

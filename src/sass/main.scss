@@ -2,6 +2,9 @@
 @import "../../bower_components/normalize-css/normalize.css";
 @import "vendors/bootstrap";
 @import "../../bower_components/font-awesome/scss/font-awesome";
+@import "vendors/slick";
+@import "vendors/slick-theme";
+
 
 /*utils*/
 @import "utils/variables";
@@ -14,6 +17,7 @@
 /*layout*/
 @import "layout/navigation";
 @import "layout/header";
+@import "layout/sidebar";
 @import "layout/content";
 @import "layout/footer";
 @import "layout/forms";
@@ -21,8 +25,9 @@
 /*components*/
 @import "components/buttons";
 @import "components/carousel";
-@import "components/cover";
+@import "components/tabs";
 
 /*pages*/
 @import "pages/home";
+@import "pages/about";
 @import "pages/contact";

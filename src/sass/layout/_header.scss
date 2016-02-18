@@ -25,16 +25,9 @@ header{
     .search{
       margin: 32px 0 0 60px;
       input{
-        background-image: url("../../img/ico-search.png");
-        background-position: 5% 50%;
-        background-repeat: no-repeat;
-        background-color: $light-color;
-        border: 1px solid #aaa9a9;
-        box-sizing: border-box;
-        padding: 2px 2px 5px 35px;
-        outline: none;
         width: 200px;
         height: 30px;
+        @extend input;
       }
       #form-query:-moz-placeholder {
         background: $light-color;
@@ -78,14 +71,66 @@ header{
       }
     }
 
-    .lang{
-      .arrow{
-        margin: 2px 0 0 6px;
-      }
-      p{
-        margin-top: 3px;
-      }
+    .dropbtn {
+      padding: 5px;
+      cursor: pointer;
     }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      margin-top: -5px;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: transparent;
+      width: 140px;
+      z-index: 10;
+    }
+
+    .dropbtn {
+      background: url('../../img/flag.png') no-repeat left center;
+      padding-left: 25px;
+      width: 40px;
+    }
+
+    .dropbtn::after {
+      background: rgba(0, 0, 0, 0) url("../../img/arr.png") no-repeat scroll center center;
+      content: "";
+      height: 16px;
+      position: absolute;
+      right: -35px;
+      top: 7px;
+      width: 16px;
+    }
+
+    .dropdown-content a:first-child
+    {
+      background: url('../../img/flag.png') no-repeat left center;
+    }
+
+    .dropdown-content a:last-child
+    {
+      background: url('http://www.miru-mir.info/images/en.gif') no-repeat left center;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 2px 0 2px 25px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: transparent;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
 
     .email{
       margin-top: 3px;
@@ -119,43 +164,5 @@ header{
       margin: 30px 0 0 5px;
     }
   }
-
-  nav{
-    ul{
-
-      li{
-        float: left;
-        list-style: none;
-        background-color: $light-color;
-        box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.15);
-        a{
-          font-family: "TahomaRegular", sans-serif;
-          color: $color-base;
-          font-size: $h3-size;
-          font-weight: 400;
-          line-height: 3.1;
-          transform: scaleX(1.0075);
-          width: 145px;
-          display: block;
-          text-align: center;
-          &:hover, &:active{
-            text-decoration: none;
-            border-bottom: 4px solid $color-stack;
-            font-weight: 700;
-            display: block;
-            color: $color-base;
-          }
-        }
-
-      }
-      &:first-child{
-        margin-left: -40px;
-      }
-
-    }
-
-  }
-
-
 
 }

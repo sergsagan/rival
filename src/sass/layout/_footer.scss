@@ -1,0 +1,71 @@
+footer{
+  .info-copyright{
+    p{
+      font-family: "TahomaRegular", sans-serif;
+      color: $color-base;
+      font-size: $h4-size;
+      font-weight: 400;
+      line-height: 1.846;
+      text-align: left;
+    }
+    a{
+      font-family: "TahomaRegular", sans-serif;
+      color: $dark-color;
+      font-size: $h3-size;
+      font-weight: 400;
+      line-height: 1.846;
+      text-align: left;
+    }
+  }
+  .social-group{
+    a{
+      margin-right: 5px;
+    }
+  }
+  ul{
+    float: left;
+    li{
+      a{
+        font-family: "TahomaRegular", sans-serif;
+        color: $color-base;
+        font-size: $h4-size;
+        font-weight: 400;
+        line-height: 1.846;
+        text-align: left;
+      }
+    }
+  }
+  .phone{
+    text-align: right;
+    margin-left: -10px;
+    a{
+      font-family: "TahomaBold", sans-serif;
+      color: $color-base;
+      font-size: 1.1em;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 1.25px;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+
+  .email{
+    text-align: right;
+    a{
+      font-family: "TahomaRegular", sans-serif;
+      color: $inner-color;
+      font-size: 0.9em;
+      font-weight: 400;
+      line-height: 1.714;
+      &:hover{
+        color:$color-stack;
+        text-decoration: none;
+      }
+    }
+  }
+  .btn-wrap{
+    margin-top: 5px;
+  }
+}
