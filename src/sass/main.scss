@@ -19,6 +19,7 @@
 @import "layout/header";
 @import "layout/sidebar";
 @import "layout/content";
+@import "layout/podbor";
 @import "layout/footer";
 @import "layout/forms";
 
@@ -26,8 +27,8 @@
 @import "components/buttons";
 @import "components/carousel";
 @import "components/tabs";
+@import "components/accordion";
 
 /*pages*/
 @import "pages/home";
-@import "pages/about";
 @import "pages/contact";

@@ -30,3 +30,37 @@
     opacity: .7;
   }
 }
+.btn-back{
+  border: 1px solid $blue-color;
+  box-sizing: border-box;
+  color: $blue-color;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  font-family: "TahomaRegular", sans-serif;
+  font-size: $other-size;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: none;
+  &:hover, &:focus{
+    color: $blue-color;
+    text-decoration: none;
+    opacity: .7;
+  }
+}
+.btn-bay{
+  border: 1px solid $blue-color;
+  background-color: $blue-color;
+  box-sizing: border-box;
+  color: $light-color;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  font-family: "TahomaRegular", sans-serif;
+  font-size: $other-size;
+  font-weight: 400;
+  cursor: pointer;
+  &:hover{
+    color: $blue-color;
+    text-decoration: none;
+    background-color: $light-color;
+  }
+}

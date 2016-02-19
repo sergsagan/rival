@@ -1,0 +1,87 @@
+.podbor{
+  margin-bottom: 0;
+
+  .bread-crumbs{
+    margin: 0;
+  }
+  h1{
+    margin:0 0 10px;
+  }
+}
+.fa {
+  margin-right: 5px;
+}
+.btn-wrap1{
+  margin-bottom: 20px;
+}
+.btn-wrap2{
+  margin: 20px 0;
+}
+.panel-body{
+  h3{
+    font-family: "TahomaBold", sans-serif;
+    color: $color-base;
+    font-size: 0.938em;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: left;
+  }
+  .banner-small{
+    background: url("../../img/cs-auto.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 130px;
+    img{
+      position: absolute;
+      top:5px;
+      right: 15px;
+    }
+  }
+  .video{
+    float: left;
+    margin-right: 4px;
+  }
+  .info-item{
+    .hide-info1,.hide-info2, .hide-info3, .hide-info4{
+      padding-right: 20px;
+      .instructions{
+        background-color: $light-color;
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+        width: 200px;
+        height: 125px;
+        margin-bottom: 20px;
+        position: relative;
+        .block-instr{
+          background-image: url("../../img/instruction.png");
+          background-repeat: no-repeat;
+          background-position: center center;
+          height: 86px;
+          position: absolute;
+          top: 18px;
+          left: 1px;
+          width: 100%;
+          img{
+            position: absolute;
+            top:0;
+            right: 0;
+          }
+        }
+      }
+    }
+    a{
+      .fa{
+        margin-left: 5px;
+      }
+    }
+    .btn-back{
+      padding: 8px 25px;
+    }
+  }
+
+}
+
+
+
+
+
+
