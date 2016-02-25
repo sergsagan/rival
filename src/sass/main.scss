@@ -2,6 +2,7 @@
 @import "../../bower_components/normalize-css/normalize.css";
 @import "vendors/bootstrap";
 @import "../../bower_components/font-awesome/scss/font-awesome";
+@import "../../bower_components/magnific-popup/dist/magnific-popup.css";
 @import "vendors/slick";
 @import "vendors/slick-theme";
 
@@ -22,6 +23,7 @@
 @import "layout/podbor";
 @import "layout/footer";
 @import "layout/forms";
+@import "layout/media";
 
 /*components*/
 @import "components/buttons";

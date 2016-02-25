@@ -64,3 +64,35 @@
     background-color: $light-color;
   }
 }
+.btn-next{
+  border: 1px solid $color-base;
+  box-sizing: border-box;
+  background-color:  rgba(255, 255, 255, 0.75);
+  font-family: "TahomaBold", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 8px 20px;
+  color:  #006bb9;
+  font-size: 0.688em;
+  font-weight: 700;
+  line-height: 2.182;
+  &:hover, &:focus{
+    color:  #006bb9;
+    text-decoration: none;
+    background-color: lighten(rgba(255, 255, 255, 0.75), 25%);
+  }
+}
+.btn-popup{
+  border-color: transparent;
+  background-color: #2669b5;
+  font-family: "TahomaBold", sans-serif;
+  padding: 7px 25px;
+  box-sizing: border-box;
+  color: $light-color;
+  font-size: 0.688em;
+  font-weight: 700;
+  line-height: 2.182;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}

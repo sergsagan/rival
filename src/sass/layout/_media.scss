@@ -1,0 +1,163 @@
+@media only screen and (min-width : 0px) and (max-width : 991px){
+  header{
+    display: none;
+  }
+  main{
+    display: none;
+
+  }
+  .sidebar{
+    display: none;
+  }
+  footer{
+    display: none;
+  }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px){
+  header .top-panel .search {
+    margin: 32px 0 0 0;
+  }
+  header .top-panel .phone a {
+    font-size: 1em;
+  }
+  header .top-panel .dropbtn {
+    font-size: 0.9em;
+  }
+  header .top-panel .email {
+    margin-top: 0;
+  }
+  header .top-panel h3, nav ul li .active {
+    font-size: 1em;
+  }
+
+  main .block-1 .slide_certificate .overlay .text-container .image-link {
+    margin-left: 1px;
+    img{
+      width: 120px;
+    }
+  }
+  main .block-1 .slide_partners .overlay .text-container a {
+    padding-bottom: 25px;
+  }
+  main .block-2 .slide_work .overlay .text-container a{
+    padding-bottom: 0;
+  }
+  main .block-2 .slide_work .overlay .text-container p {
+    line-height: 1.1;
+  }
+  main .block-3 .slide_news .overlay .text-container p {
+    padding-bottom: 0;
+  }
+  main .brands_block-1 .overlay h3, main .brands_block-2 .overlay h3, main .brands_block-3 .overlay h3,
+  main .brands_block-4 .overlay h3, main .brands_block-5 .overlay h3, main .brands_block-6 .overlay h3,
+  main .brands_block-7 .overlay h3{
+    font-size: 1em;
+  }
+  main .brands_block-1 .overlay .logo {
+    padding-bottom: 0;
+  }
+  main .brands_block-1 .overlay p {
+    line-height: 1.1;
+  }
+  main .brands_block-2 .overlay a .fa {
+    margin-top: -10px;
+  }
+  main .brands_block-5 .overlay p {
+    font-size: 0.65em;
+    line-height: 1;
+    margin-top: -5px;
+  }
+  main .brands_block-6 .overlay p {
+    font-size: 0.7em;
+    line-height: 1;
+  }
+  main .block-mini-map .mini-map .info-block .inf {
+    margin-left: 6px;
+    line-height: 1.1;
+  }
+  main .home-tabs .nav-tabs>li>a, .home-tabs .nav-tabs>li>a:focus, .home-tabs .nav-tabs>li>a:hover {
+    padding: 7px 10px;
+    &:hover{
+      padding: 7px 10px;
+    }
+  }
+
+  .home-tabs .tab-search header .top-panel .search input, .home-tabs .tab-search input, header .top-panel .search .home-tabs .tab-search input {
+    width: 55px!important;
+    height: 38px;
+    background-image: url(../../img/ico-search.png);
+    background-position: 75% 50%;
+    padding: 2px 2px 5px 10px;
+  }
+
+  footer ul li a {
+    color: #1d1c1b;
+    font-size: 0.7em;
+  }
+  footer .phone a {
+    font-size: 0.8em;
+    line-height: 20px;
+    letter-spacing: 1.1px;
+  }
+  footer .info-copyright p {
+    color: #1d1c1b;
+    font-size: 0.78em;
+  }
+  footer .btn-foot {
+    padding: 8px 8px;
+  }
+  footer .info-copyright a {
+    font-size: 0.9em;
+  }
+  nav ul li .active, nav ul li a {
+    width: 121px;
+    line-height: 2.5;
+  }
+  nav ul li {
+    height: 40px;
+  }
+  .tabs {
+    margin-top: 25px!important;
+  }
+  .sidebar .block-news {
+    background-image: url(../../img/blok_bg.png);
+    background-position: center center;
+    height: 300px;
+    width: 260px;
+  }
+  .sidebar .block-action {
+    background-image: url(../../img/blok_bg.png);
+    background-position: center center;
+    height: 300px;
+    width: 260px;
+  }
+  .sidebar .block-work {
+    background-image: url(../../img/work_img.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    width: 260px;
+  }
+  .contact .map .top-address-block ul li {
+    font-size: 0.7em!important;
+    line-height: 1.6;
+  }
+  .contact .map {
+    margin-top: -45px;
+  }
+  .contact .map img {
+    top: 60px!important;
+  }
+  #block3Carousel .carousel-control.left, #block2Carousel .carousel-control.left, #block1Carousel .carousel-control.left, #homeCarousel .carousel-control.left {
+    left: 210px;
+  }
+  #block3Carousel .carousel-control.right, #block2Carousel .carousel-control.right, #block1Carousel .carousel-control.right, #homeCarousel .carousel-control.right {
+    right: 10px!important;
+  }
+
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1920px){
+
+}

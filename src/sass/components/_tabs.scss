@@ -58,5 +58,136 @@
 
   }
 
+}
+.podbor{
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: $light-color;
+    background-color: $blue-color;
+    border: 1px solid $blue-color;
+    padding: 13px 32px;
+    margin-right: 0;
+  }
+}
+
+.tab-content{
+  position: absolute;
+  z-index: 10;
+  .tab-pane{
+
+    .select-group{
+      background-color: $color-stack;
+      margin-left: -15px;
+      padding: 15px 20px;
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+
+      .first-text{
+        color: $light-color;
+        font-family: "TahomaBold", sans-serif;
+        font-size: $h3-size;
+        font-weight: 700;
+        line-height: 1.125;
+        text-decoration: underline;
+      }
+      .two-text{
+        color: $light-color;
+        font-family: "TahomaRegular", sans-serif;
+        font-size: 0.938em;
+        font-weight: 400;
+        line-height: 1.2;
+        text-decoration: underline;
+      }
+      .box{
+        float: left;
+        margin-right: 25px;
+        padding-left: 25px;
+
+        label{
+          color: $light-color;
+          font-size: $h4-size;
+        }
+      }
+      .btn-wrap{
+        padding: 10px 0;
+        .btn-next{
+          .fa {
+            margin-right: 0;
+            margin-left: 5px;
+          }
+        }
+        .btn-back{
+          color: $light-color;
+          border: 1px solid $light-color;
+        }
+      }
+
+    }
+
+  }
 
 }
+.home-tabs{
+
+  .nav-tabs>li>a, .nav-tabs>li>a:focus, .nav-tabs>li>a:hover {
+    color: $color-stack;
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+    padding: 7px 15px;
+    margin-right: 0;
+    font-family: "TahomaRegular", sans-serif;
+    font-size: $h3-size;
+    font-weight: 400;
+    transform: scaleX(1.0075);
+  }
+
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: $light-color;
+    background-color: $blue-color;
+    border: 1px solid $blue-color;
+    padding: 7px 15px;
+    margin-right: 0;
+  }
+
+  .tab-search{
+    float: right;
+    display: block;
+    margin-top: -38px;
+    margin-right: 0;
+    input{
+      width: 98px;
+      height: 38px;
+      background-image: url(../../img/ico-search.png);
+      background-position: 50% 50%;
+      padding: 2px 2px 5px 10px;
+      @extend input;
+    }
+    #form-query2:-moz-placeholder {
+      background: $light-color;
+      color: $search-color;
+      font-family: "TahomaRegular", sans-serif;
+      font-size: $other-size;
+      font-weight: 400;
+      line-height: 2.182;
+    }
+    #form-query2::-webkit-input-placeholder {
+      background: $light-color;
+      color: $search-color;
+      font-family: "TahomaRegular", sans-serif;
+      font-size: $other-size;
+      font-weight: 400;
+      line-height: 2.182;
+    }
+    #form-query2:-ms-input-placeholder {
+      background: $light-color;
+      color: $search-color;
+      font-family: "TahomaRegular", sans-serif;
+      font-size: $other-size;
+      font-weight: 400;
+      line-height: 2.182;
+    }
+
+  }
+
+}
+
+
