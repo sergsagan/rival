@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Rival</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-1600, initial-scale=1">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css">
 
@@ -34,7 +34,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-5 col-sm-5">
-                        <div class=" lang dropdown">
+                        <div class="lang dropdown">
                             <div class="dropbtn">РУС</div>
                             <div class="dropdown-content">
                                 <a href="#">ENG</a>
@@ -77,20 +77,22 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
                         <div class="block-1">
-                            <div class="hover-menu">
-                                <ul>
-                                    <li><a href="about.html">История компании</a></li>
-                                    <li><a href="#">Сертификаты</a></li>
-                                    <li><a href="product.html">Продукты</a></li>
-                                </ul>
-                            </div>
                             <div id="homeCarousel" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="active item">
                                         <div class="slide_history">
                                             <div class="overlay">
                                                 <div class="text-container">
-                                                    <h2>История компании</h2>
+                                                    <div class="heading_el">
+                                                        <h2>История компании</h2>
+                                                        <div class="hover-menu">
+                                                            <ul>
+                                                                <li><a href="about.html">История компании</a></li>
+                                                                <li><a href="#">Сертификаты</a></li>
+                                                                <li><a href="product.html">Продукты</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
                                                     <p class="year">2006 год</p>
                                                     <hr>
                                                     <p>Деятельность компании началась с дистрибуции электронного оборудования.  В этом же году были запущены первые проекты – производство защиты для картера PROTEX, ксенон 2 CAR и ксенон PROTEX.</p>
@@ -102,7 +104,16 @@
                                         <div class="slide_production">
                                             <div class="overlay">
                                                 <div class="text-container">
-                                                    <a href="#">Производство</a>
+                                                    <div class="heading_el">
+                                                        <h2>Производство</h2>
+                                                        <div class="hover-menu">
+                                                            <ul>
+                                                                <li><a href="about.html">История компании</a></li>
+                                                                <li><a href="#">Сертификаты</a></li>
+                                                                <li><a href="product.html">Продукты</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
                                                     <a href="" class="year">Станки для лазерной резки металла</a>
                                                     <p>Деятельность компании началась с дистрибуции электронного оборудования.  В этом же году были запущены первые проекты – производство защиты для картера PROTEX, ксенон 2 CAR и ксенон PROTEX.</p>
                                                 </div>
@@ -114,10 +125,10 @@
                                             <div class="overlay">
                                                 <div class="text-container">
                                                     <h2>Сертификаты</h2>
-                                                    <a href="#" class="image-link">
+                                                    <a href="img/sertificat1.png" class="image-popup-vertical-fit">
                                                         <img src="img/certificat_1.png" alt="one">
                                                     </a>
-                                                    <a href="#" class="image-link">
+                                                    <a href="img/sertificat2.png" class="image-popup-vertical-fit">
                                                         <img src="img/certificate_2.png" alt="two">
                                                     </a>
                                                 </div>
@@ -166,8 +177,9 @@
                                         <div class="slide_team">
                                             <div class="overlay">
                                                 <a href="contact.html">Наша команда</a>
-                                                <div class="fio-block">Иванов Николай - менеджер
-                                                </div>
+                                                <div class="fio-block">Иванов Николай - менеджер</div>
+                                                <i class="fa fa-chevron-left"></i>
+                                                <i class="fa fa-chevron-right"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -604,7 +616,6 @@
                                                                     <input type="checkbox"> Almera N16
                                                                 </label>
                                                             </div>
-                                                            <a href="product.html" class="all">Посмотреть все</a>
                                                         </div>
                                                         <div class="col-md-4 col-sm-4">
                                                             <div class="box-m">
@@ -661,6 +672,11 @@
                                                                     <input type="checkbox"> Primera P12
                                                                 </label>
                                                             </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6 text-left">
+                                                            <a href="product.html" class="all">Посмотреть все</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -982,7 +998,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <a href="#" class="btn-next">Далее <i class="fa fa-angle-right"></i></a>
+                                                    <a href="index.html#mark" class="btn-next" type="button" disabled="disabled">Далее <i class="fa fa-angle-right"></i></a>
+                                                    <input type="hidden" name="valTrFal" class="valTrFal" value="valTrFal_disabled">
                                                 </div>
                                             </div>
                                         </div>
@@ -1314,15 +1331,24 @@
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-2">
-                        <div class="col-md-2 col-sm-2 padding_null">
-                            <div class="vertical_line">
-                                <img src="../img/line_vertical.png" alt="line_vert">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2 padding_null">
+                                <div class="vertical_line">
+                                    <img src="../img/line_vertical.png" alt="line_vert">
+                                </div>
+                            </div>
+                            <div class="col-md-10 col-sm-10 padding_null">
+                                <div class="btn-wrap">
+                                    <a class="btn-foot popup" href="#form-registration">Написать нам</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-10 col-sm-10 padding_null">
-                            <div class="btn-wrap">
-                                <a class="btn-foot popup" href="#form-registration">Написать нам</a>
-                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-right">
+                        <div class="aveton_block">
+                            <p>Создание сайта -<img src="../img/aventon_logo.png" alt="logo"><img src="../img/aventon.png" alt="text"></p>
                         </div>
                     </div>
                 </div>
